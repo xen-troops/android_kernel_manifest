@@ -8,7 +8,7 @@
   <superproject name="kernel/superproject" remote="aosp"/>
 
   <project path="build" name="kernel/build" />
-  <project path="common" name="linux" remote="xt" revision="android11-5.4-master" />
+  <project path="common" name="linux" remote="xt" revision="android12-5.4-xt-master" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
