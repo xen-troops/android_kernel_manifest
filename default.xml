@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com/" />
   <remote  name="xt" fetch="https://github.com/xen-troops/" />
+  <remote  name="epam" fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
@@ -18,4 +19,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-12-xt-5.4">
+    <linkfile src="standalone/Makefile" dest="imagination/Makefile" />
+  </project>
 </manifest>
