@@ -13,6 +13,8 @@ Optional options:
 
 `SKIP_MRPROPER=1` - skip mrproper stage
 
+`EXT_MODULES=imagination` - to build closed source PVR kernel driver
+
 ```
 repo init -u https://github.com/xen-troops/android_kernel_manifest -b common-android13-5.10-cr7-master -g all
 repo sync -c
