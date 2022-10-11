@@ -16,7 +16,7 @@ Optional options:
 `EXT_MODULES=imagination` - to build closed source PVR kernel driver
 
 ```
-repo init -u https://github.com/arminn/android_kernel_manifest -b common-android12-5.4-xt-master -g all
+repo init -u https://github.com/xen-troops/android_kernel_manifest -b common-android12-5.4-cr7-master -g all
 repo sync -c
 ./build/build.sh
 ```
