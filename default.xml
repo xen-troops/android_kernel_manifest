@@ -10,7 +10,7 @@
   <superproject name="kernel/superproject" remote="aosp"/>
 
   <project path="build" name="kernel/build" />
-  <project path="common" name="linux" remote="rec-inv" revision="android-12-5.4-cr7" />
+  <project path="common" name="linux" remote="xt" revision="android-12-5.4-cr7" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
