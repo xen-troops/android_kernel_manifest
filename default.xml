@@ -43,7 +43,7 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
-  <project path="modules/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-12-xt-5.4">
+  <project path="modules/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-13-xt-5.10">
     <linkfile src="standalone/Makefile" dest="modules/imagination/Makefile" />
   </project>
 </manifest>
