@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch="https://android.googlesource.com/" />
-  <remote  name="xt" fetch="https://github.com/xen-troops/" />
-  <remote  name="epam" fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
-
-  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
-
-  <superproject name="kernel/superproject" remote="aosp"/>
-
-  <project path="build" name="kernel/build" />
-  <project path="common" name="linux" remote="xt" revision="android12-5.4-xt-master" />
-  <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
-  <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
-  <project path="prebuilts-master/gcc/linux-x86/aarch64" name="android_prebuilds_gcc_linuxx86_aarch64" remote="xt" revision="gcc-arm-10.2-2020.11" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
-  <project path="imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-12-xt-5.4">
-    <linkfile src="standalone/Makefile" dest="imagination/Makefile" />
-  </project>
+  <remote name="github" fetch="ssh://git@github.com"/>
+  <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
+  <default revision="master" remote="aosp" sync-j="4" />
+  <include name="common-android14-6.1.xml" />
+  <include name="common-android14-6.1-override.xml" />
 </manifest>
