@@ -47,8 +47,8 @@
   <project path="modules/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-13-xt-5.10">
     <linkfile src="standalone/Makefile" dest="modules/imagination/Makefile" />
   </project>
-  <project path="modules/mmngr" name="hardware_renesas_mmngr" groups="notdefault" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/uvcs" name="hardware_renesas_uvcs" groups="notdefault" remote="rec-inv" revision="android-13-master" />
+  <project path="modules/mmngr" name="hardware_renesas_mmngr" remote="rec-inv" revision="android-13-master" />
+  <project path="modules/vspmif" name="hardware_renesas_vspmif" remote="rec-inv" revision="android-13-master" />
+  <project path="modules/vspm" name="hardware_renesas_vspm" remote="rec-inv" revision="android-13-master" />
+  <project path="modules/uvcs" name="hardware_renesas_uvcs" remote="rec-inv" revision="android-13-master" />
 </manifest>
