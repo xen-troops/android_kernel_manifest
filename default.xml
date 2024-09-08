@@ -23,7 +23,7 @@
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android13-5.10" />
-  <project path="common" name="linux" remote="xt" revision="common-android13-5.10-xt-cr7" >
+  <project path="common" name="linux" remote="xt" revision="3e1b05a2e51d6072e78810147d2b96e468a582b3" >
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/tests" name="kernel/tests" />
