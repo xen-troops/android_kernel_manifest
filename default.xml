@@ -2,7 +2,7 @@
 <manifest>
   <remote name="github" fetch="https://github.com"/>
   <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
-  <default revision="master" remote="aosp" sync-j="4" />
-  <include name="common-android14-6.1.xml" />
-  <include name="common-android14-6.1-override.xml" />
+  <default revision="main-kernel-build-2024" remote="aosp" sync-j="4" />
+  <include name="common.xml" />
+  <include name="common-override.xml" />
 </manifest>

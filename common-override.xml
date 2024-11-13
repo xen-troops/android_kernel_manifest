@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="common-android15-6.6-xenvm-trout-main" />
+</manifest>

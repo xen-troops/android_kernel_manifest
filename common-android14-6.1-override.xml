@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="6dcfd233e872f9ceff22f533058a2b30a72c8313" />
-</manifest>
