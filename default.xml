@@ -2,8 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com/" />
   <remote  name="xt" fetch="https://github.com/xen-troops/" />
-  <remote  name="epam" fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
-  <remote  name="rec-inv" fetch="ssh://git@gitpct.epam.com/rec-inv/" />
+  <remote name="rel" fetch="https://partnergitlab.renesas.solutions/v4h-fusion-poc/"/>
   <default revision="master-kernel-build-2022" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.10" />
@@ -23,7 +22,7 @@
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android13-5.10" />
-  <project path="common" name="linux" remote="xt" revision="3e1b05a2e51d6072e78810147d2b96e468a582b3" >
+  <project path="common" name="linux" remote="xt" revision="common-android13-5.10-v4h-xt" >
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/tests" name="kernel/tests" />
@@ -31,7 +30,6 @@
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android13-5.10" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts-master/gcc/linux-x86/aarch64" name="android_prebuilds_gcc_linuxx86_aarch64" remote="xt" revision="gcc-arm-10.2-2020.11" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
@@ -44,11 +42,7 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
-  <project path="modules/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-13-xt-5.10">
-    <linkfile src="standalone/Makefile" dest="modules/imagination/Makefile" />
+  <project path="modules/imagination/ddk" name="pvr" groups="notdefault" remote="rel" revision="23.3_RTM_6512818-android-14-main">
+    <linkfile src="rogue_km/standalone/Makefile" dest="modules/imagination/Makefile" />
   </project>
-  <project path="modules/mmngr" name="hardware_renesas_mmngr" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/vspmif" name="hardware_renesas_vspmif" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/vspm" name="hardware_renesas_vspm" remote="rec-inv" revision="android-13-master" />
-  <project path="modules/uvcs" name="hardware_renesas_uvcs" remote="rec-inv" revision="android-13-master" />
 </manifest>
