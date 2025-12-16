@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
+  <project path="modules/imagination/ddk" name="x5h-fusion-poc/gen5-modules" remote="rs" revision="24.2_RTM2_6643903-android-15-main" />
+</manifest>
