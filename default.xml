@@ -4,4 +4,5 @@
   <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <include name="common-android14-6.1.xml" />
   <include name="common-android14-6.1-override.xml" />
+  <include name="proprietary.xml" />
 </manifest>
