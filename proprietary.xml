@@ -2,4 +2,5 @@
 <manifest>
   <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
   <project path="modules/imagination/ddk" name="x5h-fusion-poc/gen5-modules" remote="rs" revision="24.2_RTM2_6643903-android-15-main" />
+  <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="android15-main" />
 </manifest>
