@@ -8,7 +8,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
-  <project path="common" name="xen-troops/linux"  remote="github" revision="common-android14-6.1-xt" />
+  <project path="common" name="xen-troops/linux"  remote="github" revision="f8a7ae02739e3b767269be1cbd49f3513f6209fa" /> <!-- common-android14-6.1-xt -->
   <project name="kernel/configs" revision="95121b20443b1b3fb62b80651d05ffdacb4d55c2" upstream="main" dest-branch="main"/>
   <project name="kernel/tests" revision="bb56a7198b3e40c17fc91e6153352dadab81ba45" upstream="main" dest-branch="main">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
-  <project path="modules/imagination/ddk" name="x5h-fusion-poc/ddk-km" remote="rs" revision="24.2_6923851-android-15-main" />
-  <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="disfwk_multiguest_4.31" />
+  <project path="modules/imagination/ddk" name="x5h-fusion-poc/ddk-km" remote="rs" revision="d880f4f0431a036b0ad2165a79c017fe5baa5a78" /> <!-- 24.2_6923851-android-15-main -->
+  <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="4856099c958de953bc912fc952713636cf6576f4" /> <!-- disfwk_multiguest_4.31 -->
 </manifest>
