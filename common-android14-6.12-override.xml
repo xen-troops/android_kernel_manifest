@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="common-modules/xen-virtual-device" name="arminn/android_kernel_xen-virtual-device" remote="github" revision="mr_6.12" />
+</manifest>
