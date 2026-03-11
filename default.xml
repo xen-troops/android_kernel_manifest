@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="common-android16-6.12.xml" />
+  <include name="common-android16-6.12-override.xml" />
+  <include name="proprietary.xml" />
+</manifest>
