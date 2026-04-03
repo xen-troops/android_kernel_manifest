@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="92b19e34018fa38c1b81573df5f8a2ff816551c2" /> <!-- common-android14-6.1-xenvm-trout-ih-main -->
+  <project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="cec4ef3e9bfdc2bd57b569a40c95a51d26300b03" /> <!-- common-android14-6.1-xenvm-trout-ih-main -->
 </manifest>
