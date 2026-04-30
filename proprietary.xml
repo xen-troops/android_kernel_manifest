@@ -3,4 +3,6 @@
   <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
   <project path="modules/imagination/ddk" name="x5h-fusion-poc/ddk-km" remote="rs" revision="a446762a583cccfd5fc0ab30a4c44581ffeaa83a" /> <!-- 24.2_6923851-android-16-main -->
   <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="d9ee74879c9ac1747a8914fb9239c220adede377" /> <!-- disfwk_multiguest_4.31 -->
+  <project path="modules/renesas/rcar_mfis" name="x5h-fusion-poc/rcar_mfis" remote="rs" revision="5d83bd8ee9c42c8c4903f8100aef9f646102c52a" /> <!-- disfwk_multiguest_4.31 -->
+  <project path="modules/renesas/rcar_gen5_rproc" name="x5h-fusion-poc/rcar_gen5_rproc" remote="rs" revision="b7cfbda865a645fd18629396fdecfef049a29a00" /> <!-- disfwk_multiguest_4.31 -->
 </manifest>
