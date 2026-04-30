@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="main-kernel-2025" sync-j="4"/>
   
-  <project name="xen-troops/linux" path="common" remote="github" revision="3a86c74019b28877f732e4582828bb8c26d634f4" />
+  <project name="kernel/common" path="common" revision="9fe965cd399c8afa2afae19b1b689c9b92764c90" dest-branch="android16-6.12" groups="ddk" />
   <project name="kernel/build" path="build/kernel" revision="8da931ec12d5e1f81136902db7d15d61946c061c" upstream="main-kernel-2025" dest-branch="main-kernel-2025" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>

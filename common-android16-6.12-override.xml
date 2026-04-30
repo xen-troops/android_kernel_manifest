@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com"/>
-  <project path="common-modules/xen-virtual-device" name="arminn/android_kernel_xen-virtual-device" remote="github" revision="d4cc693b764916be54f72e4701632a554f7ea7d4" />
+  <project path="common-modules/xen-virtual-device" name="arminn/android_kernel_xen-virtual-device" remote="github" revision="1931e76d2277d228f26d8dd9bfa873b549d641e1" />
 </manifest>
