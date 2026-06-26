@@ -5,4 +5,5 @@
   <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="d9ee74879c9ac1747a8914fb9239c220adede377" /> <!-- disfwk_multiguest_4.31 -->
   <project path="modules/renesas/rcar-mfis" name="x5h-fusion-poc/rcar_mfis" remote="rs" revision="5d83bd8ee9c42c8c4903f8100aef9f646102c52a" /> <!-- disfwk_multiguest_4.31 -->
   <project path="modules/renesas/rcar_gen5_rproc" name="x5h-fusion-poc/rcar_gen5_rproc" remote="rs" revision="b7cfbda865a645fd18629396fdecfef049a29a00" /> <!-- disfwk_multiguest_4.31 -->
+  <project path="modules/renesas/pcie6_rcar_gen5_host" name="x5h-fusion-poc/rcar_pcie6_host" remote="rs" revision="2435331ed8be7fc4ae288b7f4b28c00f7322d415" /> <!-- PCIe6 BSP kernel 6.12.68 -->
 </manifest>
