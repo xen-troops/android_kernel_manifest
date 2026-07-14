@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
-  <project path="modules/imagination/ddk" name="x5h-fusion-poc/ddk-km" remote="rs" revision="f025c23c7342ee159c6de7b40caa1c6d789fec14" /> <!-- 25.1_6794074-android-16-main -->
-  <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="d9ee74879c9ac1747a8914fb9239c220adede377" /> <!-- disfwk_multiguest_4.31 -->
+  <project path="modules/imagination/ddk" name="x5h-fusion-poc/ddk-km" remote="rs" revision="939e551d315ff2b78f724a2014eb17b41d5722e4" /> <!-- 25.1_6794074-android-17-main -->
+  <project path="modules/renesas/disfwk_fe" name="x5h-fusion-poc/disfwk_fe" remote="rs" revision="7d51259b29cffc46c56466c02b71b69b69785026" /> <!-- disfwk_multiguest_4.31 -->
   <project path="modules/renesas/rcar-mfis" name="x5h-fusion-poc/rcar_mfis" remote="rs" revision="5d83bd8ee9c42c8c4903f8100aef9f646102c52a" /> <!-- disfwk_multiguest_4.31 -->
   <project path="modules/renesas/rcar_gen5_rproc" name="x5h-fusion-poc/rcar_gen5_rproc" remote="rs" revision="b7cfbda865a645fd18629396fdecfef049a29a00" /> <!-- disfwk_multiguest_4.31 -->
   <project path="modules/renesas/pcie6_rcar_gen5_host" name="x5h-fusion-poc/rcar_pcie6_host" remote="rs" revision="2435331ed8be7fc4ae288b7f4b28c00f7322d415" /> <!-- PCIe6 BSP kernel 6.12.68 -->
