@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com"/>
-  <project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="b4e20965fa26cae6e56aba99fb3469d0c45f10f4" /> <!-- common-android17-6.18-xenvm-trout-ih-main -->
+  <project path="common-modules/xen-virtual-device" name="xen-troops/android_kernel_xen-virtual-device" remote="github" revision="220aa59516f185dbaee9c50853bb9bc085fe26d9" /> <!-- common-android17-6.18-xenvm-trout-ih-main -->
 </manifest>
