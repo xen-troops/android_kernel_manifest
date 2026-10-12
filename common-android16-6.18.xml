@@ -3,13 +3,14 @@
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
   
   <default remote="aosp" revision="main-kernel-2026" sync-j="4"/>
+  <remote name="github" fetch="https://github.com"/>
   
   <project name="device/google/cuttlefish_vmm" path="prebuilts/vmm" revision="a16b575ccd825ed941865e7223dbad10b28956a0" upstream="main-kernel-2026" dest-branch="main-kernel-2026" clone-depth="1"/>
   <project name="kernel/build" path="build/kernel" revision="e1940722ad94bb8c3bb46257fd87e89569389c32" upstream="main-kernel-2026" dest-branch="main-kernel-2026" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
-  <project name="kernel/common" path="common" revision="1820d6db23bfd13e77fd48752705da1ea203d091" upstream="android17-6.18-lts" dest-branch="android17-6.18-lts"/>
+  <project name="xen-troops/linux" path="common" remote="github" revision="8fd621046b272160e71454aa4926513943fb058d" /> <!-- common-android17-6.18-xenvm-trout-ih-sdv-main -->
   <project name="kernel/common-modules/trusty" path="common-modules/trusty" revision="f02f025a3bb78186927c184981a30d88106135c8" upstream="main-kernel-2026" dest-branch="main-kernel-2026"/>
   <project name="kernel/common-modules/virtual-device" path="common-modules/virtual-device" revision="6c4ec5627a4fe7f8ffe53e5fb53c4fcf4793e86e" upstream="android17-6.18" dest-branch="android17-6.18"/>
   <project name="kernel/common-modules/wonder" path="common-modules/wonder" revision="b240cbaca410dd0a484a7efe261f68212f3bda5a" upstream="android17-6.18" dest-branch="android17-6.18"/>
